@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Coda&display=swap');
+body{
+    font-family: 'Coda';
+    text-align: center;
+    background-image: url('https://images.pond5.com/sport-stadium-video-background-green-footage-137297227_iconl.jpeg');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+    text-align: center;
+}
+#home {
+	margin-left: 410px;
+	z-index: 1;
+}h1 {
+	font-size: 50px;
+	text-transform: uppercase;
+	margin-top: 40px;
+	background: gold;
+}
+h2 {
+	color: cyan;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+table{
+	border-collapse: collapse;
+	border-right: 1px solid grey;
+	border-left: 1px solid grey;
+	margin-left: 30px;
+	background-color: honeydew;
+}td{
+	padding: 15px;
+	border-bottom: 2px solid grey;
+    font-weight: bold;
+}#home table tr.heading td {
+	background: red;
+	color: white;
+	font-weight: 600;
+}
+.strike-rate {
+	text-align: right;
+	font-weight: 600;
+}
+.dismissals {
+	color:rgb(94, 86, 86);
+	font-weight: 600;
+}
